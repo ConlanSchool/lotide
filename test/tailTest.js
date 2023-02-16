@@ -1,7 +1,13 @@
 const tail = require('../tail.js')
 const assertEqual = require('../assertEqual.js')
 
-// Test Case:
-const words = ["Yo Yo", "Lighthouse", "Labs"];
-tail(words); // no need to capture the return value since we are not checking it
-assertEqual(words.length, 3); // original array should still have 3 elements!
+
+
+describe('#tail', () => {
+
+  it('Return every element of an array except the first', () => {
+    const words = ["Yo Yo", "Lighthouse", "Labs"];
+    assertEqual(tail(words).length, 2);
+  })
+});
+
