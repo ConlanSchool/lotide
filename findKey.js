@@ -25,8 +25,6 @@ const findKey = function (object, callback) {
 
 
 
-
-
 //TEST CASES
 const object1 = {
   "Blue Hill": { stars: 1 },
