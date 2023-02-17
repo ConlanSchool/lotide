@@ -35,15 +35,15 @@ const flatten = function(array) {
 
       //pushes inner array elements
       element.forEach(function(inner) {
-        flatArray.push(inner)
+        flatArray.push(inner);
       });
     
     //pushes single elements
     } else {
-      flatArray.push(element)
+      flatArray.push(element);
     }
   });
   return flatArray;
 };
 
-flatten([1, 2, [3, 4], 5, [6]])
+flatten([1, 2, [3, 4], 5, [6]]);

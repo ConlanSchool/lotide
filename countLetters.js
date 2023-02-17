@@ -16,10 +16,10 @@ const countLetters = function(sentence) {
   for (let character of sentence) {
     //checks if it is already in the object
     if (countObj[character]) {
-      countObj[character] += 1
+      countObj[character] += 1;
 
     } else {
-      countObj[character] = 1
+      countObj[character] = 1;
     }
   }
   return countObj;

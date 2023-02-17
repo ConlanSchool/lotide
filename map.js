@@ -10,7 +10,7 @@ const eqArrays = function (arr1, arr2) {
     }
   }
   return true;
-}
+};
 
 //Prints the result message
 const assertArraysEqual = function(arr1, arr2) {
