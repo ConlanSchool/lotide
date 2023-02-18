@@ -21,3 +21,5 @@ const letterPositions = function (sentence) {
 
 //TEST CASE
 assertArraysEqual(letterPositions("hello hello").e, [1, 7]);
+
+module.exports = letterPositions;

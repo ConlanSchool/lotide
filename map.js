@@ -32,3 +32,5 @@ assertArraysEqual(
   map(objects, (x) => Object.values(x)).flat(),
   expectedObjects
 );
+
+module.exports = map;

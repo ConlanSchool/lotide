@@ -21,3 +21,5 @@ let test1 = countLetters("aaabbbcccd");
 
 assertEqual(test1["a"], 3);
 assertEqual(test1["d"], 1);
+
+module.exports = countLetters;

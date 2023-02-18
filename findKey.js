@@ -44,3 +44,6 @@ assertEqual(findKey(object3, callback3), "second");
 const object4 = {};
 const callback4 = (x) => x === undefined;
 assertEqual(findKey(object4, callback4), undefined);
+
+
+module.exports = findKey;
