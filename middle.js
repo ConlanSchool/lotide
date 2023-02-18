@@ -1,6 +1,6 @@
 const eqArrays = require('./eqArrays')
 const assertArraysEqual = require('./assertArraysEqual')
-
+const assertEqual = require('./assertEqual')
 
 
 
