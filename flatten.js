@@ -1,6 +1,3 @@
-const eqArrays = require("./eqArrays");
-const assertArraysEqual = require("./assertArraysEqual");
-
 //Falttens an array by 1 level
 const flatten = function (array) {
   let flatArray = [];
@@ -20,7 +17,5 @@ const flatten = function (array) {
   });
   return flatArray;
 };
-
-flatten([1, 2, [3, 4], 5, [6]]);
 
 module.exports = flatten;

@@ -1,7 +1,3 @@
-const eqArrays = require("./eqArrays");
-const assertArraysEqual = require("./assertArraysEqual");
-const assertEqual = require("./assertEqual");
-
 //slices out the middle of an array
 const middle = function (array) {
   let middleVal = 0;
