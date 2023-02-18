@@ -1,6 +1,5 @@
 const assertArraysEqual = require("./assertArraysEqual");
 
-//Creates a new array with a callback
 const map = function (array, callback) {
   const results = [];
 

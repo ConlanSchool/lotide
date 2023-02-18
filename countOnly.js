@@ -1,14 +1,10 @@
 const assertEqual = require("./assertEqual");
 
-//takes in a collection of items and return counts for a specific subset of those items
 const countOnly = function (allItems, itemsToCount) {
   const results = {};
 
-  //Loop through the input
   for (const item of allItems) {
-    //checks if the item is in itemToCount
     if (itemsToCount[item]) {
-      //if true add the results
       if (results[item]) {
         results[item] += 1;
       } else {

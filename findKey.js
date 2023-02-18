@@ -1,10 +1,7 @@
 const assertEqual = require("./assertEqual");
 
-//finds a key in an object to compare with a callback
 const findKey = function (object, callback) {
-  //loop through the object
   for (let key in object) {
-    //if the key matches the callback return it
     if (callback(object[key])) {
       return key;
     }
